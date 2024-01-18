@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans&family=Noto+Serif&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FC2E20;
+    overflow: hidden; /* Hide scrollbars */
+    line-height: 1.5;
+    font-family: 'Dancing Script';
+}
+
+section{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    padding: 3rem;
+}
+
+article{
+    margin-top: 5rem;
+    background-color: black;
+    color: #FC2E20;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+p{
+    font-size: 2rem;
+    margin: 15px 0px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.aDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #FC2E20;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+a:hover{
+    color: red;
+}
