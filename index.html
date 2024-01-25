@@ -30,7 +30,7 @@
             <p>Du løper ned til stua, du er spent. Tidligere i dag lagde du et veddemål med vennen din Thomas om å ta bilde av nissen. Du går bort til vinduet,
                 tar frem kameraet og venter. I vinduet til nabohuset ser du vennen din, også klar med kamerat sitt. Du skal til å vinke til Thomas når noe fanger
                 blikket ditt, du ser opp på taket, der er det en skygge.</p>
-            <p>Du skvetter til. <span class="cursive">Hva er det for noe</span>, sier du til deg selv. Du gjør klar kameraet, men før du rekker å ta ett bilde, forsvinner skyggen. Du ser
+            <p>Du skvetter til. <span class="cursive">Hva er det for noe?</span>, sier du til deg selv. Du gjør klar kameraet, men før du rekker å ta ett bilde, forsvinner skyggen. Du ser
                 tilbake mot vinduet. <span class="cursive">Kanskje Thomas hørte noe?</span>, men Thomas er borte.</p>
             <p>Etter en kort stund så ser du at skyggen kommer opp fra pipa, du tar raskt opp kameraet for å rekke å ta ett bilde. <span class="bold">*Klikk*</span>, lyset fra blitsen treffer skyggen,
                 og figuren snur seg raskt mot deg. <span class="cursive">Så det meg?!</span>, tenker du mens hjertet hamrer. Lyden fra hjerte ditt gjorde det vanskelig å fokusere på ting rundt deg.
@@ -49,9 +49,9 @@
             <h2>Kapittel 2: Skapningen</h2>
             <p>Kommer snart...</p>
         </article>
-        <div class="aDiv">
-            <a href="#">Valg 1</a>
-            <a href="#">Valg 2</a>
+        <div id="Choice1">?
+            <button onclick="jernstang()">Jernstang</button>
+            <button onclick="bilde()">Bilde</button>
         </div>
     </section>
     <!--Her kommer alle sluttene-->
@@ -76,7 +76,17 @@
         </div>
     </section>
     <script>
-       //Her kommer det kode senere
+       let backpack = []
+        
+       function jernstang() {
+        backpack.push("jernstang")
+        console.log(backpack)
+       }
+
+       function bilde() {
+        backpack.push("bilde")
+        console.log(backpack)
+       }
     </script>
 </body>
 </html>
